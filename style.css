@@ -1,0 +1,105 @@
+
+.first-container button{
+    margin: 2px;
+    border-radius: 30px;
+}
+.first-container button:hover{
+    transform:scale(1.1);
+}
+.nav{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+  
+}
+.text h1{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.text p{
+    font-family: 'Merriweather', serif;
+}
+.second-container, .sixth-container{
+    animation: myanimation 10s infinite;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.text, .subscribe, .sixth-container, .create{
+    text-align: center;
+    color: white;
+}
+@keyframes myanimation {
+    0% {background-color: rgb(255, 0, 64);}
+    25%{background-color:rgb(10, 10, 10);}
+    50%{background-color:green;}
+    75%{background-color:rgb(38, 0, 255)}
+    100% {background-color: red;}
+  }
+  .mycard h3{
+    font-size: 1.2em;
+  }
+  .third-container{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  .third-container h3{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  }
+  .third-container p{
+      color:black;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .fourth-container h5{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  }
+  .fourth-container p{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .mycard{
+      margin-bottom: 20px;
+  }
+  .mycard:hover{
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .para{
+    font-family: 'Sacramento', cursive;
+    font-size: 6em;
+    color:rgb(65, 124, 5);
+  }
+
+  .fourth-container img{
+      height:200px;
+  }
+  .fifth-container img{
+      border-radius: 20px;
+  }
+  .fifth-container p{
+      color:black;
+  }
+  .page-footer{
+      background-color: black;
+      padding-top: 10px;
+  }
+  .page-footer h4{
+      color:white;
+      margin-bottom: 0px;
+  }
+  .page-footer li,p{
+      color:rgb(212, 209, 209);
+  }
+  .page-footer li:hover{
+      transform: scale(1.1);
+  }
+  i:hover{
+    transform: scale(1.4);
+  }
+  hr{
+      width:85px;
+  }
+  .heading{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+  }
+ 
